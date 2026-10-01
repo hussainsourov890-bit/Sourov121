@@ -17,7 +17,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 
 # ==================== CONFIG SECTION ====================
 
-BOT_TOKEN = "8399230773:AAHssQGbezyAWu8qohRDaixhamxdTZOnQ_8"
+BOT_TOKEN = "8643676635:AAFCR9qapMjL6BS3sUgI5mPDHnHtXYKPpvY"
 API_KEY = "MIAHSMS_424BECB5A0EC3430BAC76CD9"
 BASE_URL = "https://miahsms.com/bot"           # আপনার প্যানেল ডোমেন (trailing slash ছাড়া)
 
@@ -35,19 +35,19 @@ ACTIVITY_LOGS_FILE = "activity_logs"
 DATA_RANGE_FILE = "datarange"
 
 # ==================== MULTIPLE ADMINS CONFIGURATION ====================
-ADMINS = [6305775446]
+ADMINS = [8345594551]
 
-OTP_GROUP_ID = -1003513561041
+OTP_GROUP_ID = -1003518018515
 
 # ==================== সব লিংক/ইউজারনেম এক জায়গায় ====================
-SUPPORT_LINK = "https://t.me/sourov_it_bd"          # আপনার সাপোর্ট লিংক দিন
+SUPPORT_LINK = "https://t.me/mlhackermelon"          # আপনার সাপোর্ট লিংক দিন
 DEVELOPER_LINK = "https://t.me/sourov_it_bd"     # আপনার ডেভেলপার লিংক দিন
-PANEL_LINK = "https://t.me/SIBVIPNM_BOT"         # "‼️ বটের ইউজার নাম PANEL" বাটনে ব্যবহৃত
-CHANNEL_LINK = "https://t.me/sourov_it_bd"            # "📢 CHANNEL" বাটনে ব্যবহৃত
-OTP_GROUP_LINK = "https://t.me/SIBTMBD"         # "📢 OTP GROUP" বাটনে ব্যবহৃত
+PANEL_LINK = "https://t.me/MLNAMBER_BOT"         # "‼️ বটের ইউজার নাম PANEL" বাটনে ব্যবহৃত
+CHANNEL_LINK = "https://t.me/mlhackermelon"            # "📢 CHANNEL" বাটনে ব্যবহৃত
+OTP_GROUP_LINK = "https://t.me/mlmelonhacker1"         # "📢 OTP GROUP" বাটনে ব্যবহৃত
 
 # ==================== WELCOME MESSAGE CONFIGURATION ====================
-WELCOME_MESSAGE = """✨ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗦𝗜𝗕 𝗦𝗠𝗦 𝗣𝗔𝗡𝗘𝗟✨ 
+WELCOME_MESSAGE = """✨ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗦𝗜𝗕 𝗦𝗠𝗦 𝗣𝗔𝗡𝗘𝗟 ✨ 
 ━━━━━━━━━━━━━━━━━━━━━━
 🚀 Enjoy Premium Quality Service 🚀"""
 
@@ -60,7 +60,7 @@ MIN_WITHDRAW = 50
 MAX_WITHDRAW = 10000
 
 request_queue = asyncio.Queue()
-MAX_WORKERS = 500000
+MAX_WORKERS = 5000
 
 # হোস্টিং সার্ভারে কানেকশন ড্রপ প্রতিরোধে Keepalive & Timeout অপটিমাইজেশন
 client_async = httpx.AsyncClient(
